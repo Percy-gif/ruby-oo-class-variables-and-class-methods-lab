@@ -14,8 +14,8 @@ class Song
         @genre = genre 
 
         @@count += 1 
-        @@artists << [] #self?
-        @@genres << [] #self?
+        @@artists << artist #[] #self?
+        @@genres << genre #[] #self?
    
     end 
 
